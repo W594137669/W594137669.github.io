@@ -1,51 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[049 Group Anagrams]]></title>
-    <url>%2F2018%2F01%2F20%2F049-Group-Anagrams%2F</url>
-    <content type="text"><![CDATA[ProblemGiven a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000. Test12345Input: &quot;babad&quot;Output: &quot;bab&quot;Note: &quot;aba&quot; is also a valid answer. 123Input: &quot;cbbd&quot;Output: &quot;bb&quot; Python123456789101112131415161718192021222324#!python3class Solution: def twoSum(self, nums, target): """ :type nums: List[int] :type target: int :rtype: List[int] """ dic = &#123;&#125; for index, num in enumerate(nums): if num in dic: return [dic[num], index] dic[target - num] = indexif __name__ == "__main__": nums = [2, 7, 11, 15] target = 9 assert (Solution().twoSum(nums, target) == [0, 1]) nums = [3, 2, 4] target = 6 assert (Solution().twoSum(nums, target) == [1, 2]) $\alpha=\beta$]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>049 Group Anagrams</title>
+      <link href="/2018/01/20/049-Group-Anagrams/"/>
+      <url>/2018/01/20/049-Group-Anagrams/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Problem"><a href="#Problem" class="headerlink" title="Problem"></a>Problem</h2><p>Given a string <strong>s</strong>, find the longest palindromic substring in <strong>s</strong>. You may assume that the maximum length of <strong>s</strong> is 1000.</p><h2 id="Test"><a href="#Test" class="headerlink" title="Test"></a>Test</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Input: &quot;babad&quot;</span><br><span class="line"></span><br><span class="line">Output: &quot;bab&quot;</span><br><span class="line"></span><br><span class="line">Note: &quot;aba&quot; is also a valid answer.</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Input: &quot;cbbd&quot;</span><br><span class="line"></span><br><span class="line">Output: &quot;bb&quot;</span><br></pre></td></tr></table></figure><h2 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!python3</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">twoSum</span><span class="params">(self, nums, target)</span>:</span></span><br><span class="line">        <span class="string">"""</span></span><br><span class="line"><span class="string">        :type nums: List[int]</span></span><br><span class="line"><span class="string">        :type target: int</span></span><br><span class="line"><span class="string">        :rtype: List[int]</span></span><br><span class="line"><span class="string">        """</span></span><br><span class="line">        dic = &#123;&#125;</span><br><span class="line">        <span class="keyword">for</span> index, num <span class="keyword">in</span> enumerate(nums):</span><br><span class="line">            <span class="keyword">if</span> num <span class="keyword">in</span> dic:</span><br><span class="line">                <span class="keyword">return</span> [dic[num], index]</span><br><span class="line">            dic[target - num] = index</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">"__main__"</span>:</span><br><span class="line">    nums = [<span class="number">2</span>, <span class="number">7</span>, <span class="number">11</span>, <span class="number">15</span>]</span><br><span class="line">    target = <span class="number">9</span></span><br><span class="line">    <span class="keyword">assert</span> (Solution().twoSum(nums, target) == [<span class="number">0</span>, <span class="number">1</span>])</span><br><span class="line">    nums = [<span class="number">3</span>, <span class="number">2</span>, <span class="number">4</span>]</span><br><span class="line">    target = <span class="number">6</span></span><br><span class="line">    <span class="keyword">assert</span> (Solution().twoSum(nums, target) == [<span class="number">1</span>, <span class="number">2</span>])</span><br></pre></td></tr></table></figure><p>$\alpha=\beta$</p>]]></content>
+      
+      
       <categories>
-        <category>language</category>
-        <category>python</category>
-        <category>cpp</category>
-        <category>field</category>
-        <category>algorithm</category>
+          
+          <category> language </category>
+          
+          <category> python </category>
+          
+          <category> field </category>
+          
+          <category> cpp </category>
+          
+          <category> algorithm </category>
+          
       </categories>
-      <tags>
-        <tag>leetcode</tag>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[005 Longest Palindromic Substring]]></title>
-    <url>%2F2018%2F01%2F19%2F005-Longest-Palindromic-Substring%2F</url>
-    <content type="text"><![CDATA[ProblemGiven a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000. Test12345Input: &quot;babad&quot;Output: &quot;bab&quot;Note: &quot;aba&quot; is also a valid answer. 123Input: &quot;cbbd&quot;Output: &quot;bb&quot; Python123456789101112131415161718192021222324#!python3class Solution: def twoSum(self, nums, target): """ :type nums: List[int] :type target: int :rtype: List[int] """ dic = &#123;&#125; for index, num in enumerate(nums): if num in dic: return [dic[num], index] dic[target - num] = indexif __name__ == "__main__": nums = [2, 7, 11, 15] target = 9 assert (Solution().twoSum(nums, target) == [0, 1]) nums = [3, 2, 4] target = 6 assert (Solution().twoSum(nums, target) == [1, 2])]]></content>
+      
+      
+        <tags>
+            
+            <tag> leetcode </tag>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>005 Longest Palindromic Substring</title>
+      <link href="/2018/01/19/005-Longest-Palindromic-Substring/"/>
+      <url>/2018/01/19/005-Longest-Palindromic-Substring/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Problem"><a href="#Problem" class="headerlink" title="Problem"></a>Problem</h2><p>Given a string <strong>s</strong>, find the longest palindromic substring in <strong>s</strong>. You may assume that the maximum length of <strong>s</strong> is 1000.</p><h2 id="Test"><a href="#Test" class="headerlink" title="Test"></a>Test</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Input: &quot;babad&quot;</span><br><span class="line"></span><br><span class="line">Output: &quot;bab&quot;</span><br><span class="line"></span><br><span class="line">Note: &quot;aba&quot; is also a valid answer.</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Input: &quot;cbbd&quot;</span><br><span class="line"></span><br><span class="line">Output: &quot;bb&quot;</span><br></pre></td></tr></table></figure><h2 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!python3</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">twoSum</span><span class="params">(self, nums, target)</span>:</span></span><br><span class="line">        <span class="string">"""</span></span><br><span class="line"><span class="string">        :type nums: List[int]</span></span><br><span class="line"><span class="string">        :type target: int</span></span><br><span class="line"><span class="string">        :rtype: List[int]</span></span><br><span class="line"><span class="string">        """</span></span><br><span class="line">        dic = &#123;&#125;</span><br><span class="line">        <span class="keyword">for</span> index, num <span class="keyword">in</span> enumerate(nums):</span><br><span class="line">            <span class="keyword">if</span> num <span class="keyword">in</span> dic:</span><br><span class="line">                <span class="keyword">return</span> [dic[num], index]</span><br><span class="line">            dic[target - num] = index</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">"__main__"</span>:</span><br><span class="line">    nums = [<span class="number">2</span>, <span class="number">7</span>, <span class="number">11</span>, <span class="number">15</span>]</span><br><span class="line">    target = <span class="number">9</span></span><br><span class="line">    <span class="keyword">assert</span> (Solution().twoSum(nums, target) == [<span class="number">0</span>, <span class="number">1</span>])</span><br><span class="line">    nums = [<span class="number">3</span>, <span class="number">2</span>, <span class="number">4</span>]</span><br><span class="line">    target = <span class="number">6</span></span><br><span class="line">    <span class="keyword">assert</span> (Solution().twoSum(nums, target) == [<span class="number">1</span>, <span class="number">2</span>])</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>language</category>
-        <category>python</category>
-        <category>field</category>
-        <category>algorithm</category>
+          
+          <category> language </category>
+          
+          <category> python </category>
+          
+          <category> field </category>
+          
+          <category> algorithm </category>
+          
       </categories>
-      <tags>
-        <tag>leetcode</tag>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[000 Two Sum]]></title>
-    <url>%2F2018%2F01%2F01%2F000-Two-Sum%2F</url>
-    <content type="text"><![CDATA[ProblemGiven an array of integers, return indices of the two numbers such that they add up to a specific target. You may assume that each input would have exactly one solution, and you may not use the same element twice. Example1234Given nums = [2, 7, 11, 15], target = 9,Because nums[0] + nums[1] = 2 + 7 = 9,return [0, 1]. Python123456789101112131415161718192021222324252627282930class Solution(object): def twoSum(self, nums, target): """ :type nums: List[int] :type target: int :rtype: List[int] """ lookup = &#123;&#125; for i, num in enumerate(nums): if target - num in lookup: return [lookup[target - num], i] lookup[num] = i def twoSum2(self, nums, target): """ :type nums: List[int] :type target: int :rtype: List[int] """ k = 0 for i in nums: j = target - i k += 1 tmp_nums = nums[k:] if j in tmp_nums: return [k - 1, tmp_nums.index(j) + k]if __name__ == '__main__': print Solution().twoSum((2, 7, 11, 15), 9) C++12345678910111213class Solution &#123;public: vector&lt;int&gt; twoSum(vector&lt;int&gt;&amp; nums, int target) &#123; unordered_map&lt;int, int&gt; lookup; for (int i = 0; i &lt; nums.size(); ++i) &#123; if (lookup.count(target - nums[i])) &#123; return &#123;lookup[target - nums[i]], i&#125;; &#125; lookup[nums[i]] = i; &#125; return &#123;&#125;; &#125;&#125;;]]></content>
+      
+      
+        <tags>
+            
+            <tag> leetcode </tag>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>000 Two Sum</title>
+      <link href="/2018/01/01/000-Two-Sum/"/>
+      <url>/2018/01/01/000-Two-Sum/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Problem"><a href="#Problem" class="headerlink" title="Problem"></a>Problem</h2><p>Given an array of integers, return <strong>indices</strong> of the two numbers such that they add up to a specific target.</p><p>You may assume that each input would have <em>exactly</em> one solution, and you may not use the same element twice.</p><h2 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Given nums = [2, 7, 11, 15], target = 9,</span><br><span class="line"></span><br><span class="line">Because nums[0] + nums[1] = 2 + 7 = 9,</span><br><span class="line">return [0, 1].</span><br></pre></td></tr></table></figure><h2 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span><span class="params">(object)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">twoSum</span><span class="params">(self, nums, target)</span>:</span></span><br><span class="line">        <span class="string">"""</span></span><br><span class="line"><span class="string">        :type nums: List[int]</span></span><br><span class="line"><span class="string">        :type target: int</span></span><br><span class="line"><span class="string">        :rtype: List[int]</span></span><br><span class="line"><span class="string">        """</span></span><br><span class="line">        lookup = &#123;&#125;</span><br><span class="line">        <span class="keyword">for</span> i, num <span class="keyword">in</span> enumerate(nums):</span><br><span class="line">            <span class="keyword">if</span> target - num <span class="keyword">in</span> lookup:</span><br><span class="line">                <span class="keyword">return</span> [lookup[target - num], i]</span><br><span class="line">            lookup[num] = i</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">twoSum2</span><span class="params">(self, nums, target)</span>:</span></span><br><span class="line">        <span class="string">"""</span></span><br><span class="line"><span class="string">        :type nums: List[int]</span></span><br><span class="line"><span class="string">        :type target: int</span></span><br><span class="line"><span class="string">        :rtype: List[int]</span></span><br><span class="line"><span class="string">        """</span></span><br><span class="line">        k = <span class="number">0</span></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> nums:</span><br><span class="line">            j = target - i</span><br><span class="line">            k += <span class="number">1</span></span><br><span class="line">            tmp_nums = nums[k:]</span><br><span class="line">            <span class="keyword">if</span> j <span class="keyword">in</span> tmp_nums:</span><br><span class="line">                <span class="keyword">return</span> [k - <span class="number">1</span>, tmp_nums.index(j) + k]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</span><br><span class="line">    <span class="keyword">print</span> Solution().twoSum((<span class="number">2</span>, <span class="number">7</span>, <span class="number">11</span>, <span class="number">15</span>), <span class="number">9</span>)</span><br></pre></td></tr></table></figure><h2 id="C"><a href="#C" class="headerlink" title="C++"></a>C++</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; twoSum(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; nums, <span class="keyword">int</span> target) &#123;</span><br><span class="line">        <span class="built_in">unordered_map</span>&lt;<span class="keyword">int</span>, <span class="keyword">int</span>&gt; lookup;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; nums.size(); ++i) &#123;</span><br><span class="line">            <span class="keyword">if</span> (lookup.count(target - nums[i])) &#123;</span><br><span class="line">                <span class="keyword">return</span> &#123;lookup[target - nums[i]], i&#125;;</span><br><span class="line">            &#125;</span><br><span class="line">            lookup[nums[i]] = i;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> &#123;&#125;;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>language</category>
-        <category>python</category>
-        <category>cpp</category>
-        <category>field</category>
-        <category>algorithm</category>
-        <category>test</category>
+          
+          <category> language </category>
+          
+          <category> python </category>
+          
+          <category> field </category>
+          
+          <category> cpp </category>
+          
+          <category> algorithm </category>
+          
+          <category> test </category>
+          
       </categories>
-      <tags>
-        <tag>leetcode</tag>
-        <tag>test</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> leetcode </tag>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
