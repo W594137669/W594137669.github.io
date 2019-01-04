@@ -1980,7 +1980,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6bba58;
+  background: #c3a2ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2847,6 +2847,6 @@ pre {
   margin-top: 60px;
   margin-bottom: 60px;
   padding: 25px;
-  -webkit-box-shadow: 0 0 5px rgba(212,212,212,0.5);
-  -moz-box-shadow: 0 0 5px rgba(222,222,224,0.5);
+  -webkit-box-shadow: 2 2 7px rgba(212,212,212,0.5);
+  -moz-box-shadow: 2 2 7px rgba(222,222,224,0.5);
 }
