@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[HTML基础篇1.md]]></title>
+    <url>%2F2019%2F01%2F05%2Fleetcode-HTML%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A01%2F</url>
+    <content type="text"><![CDATA[一、基本语法 1、标记是什么？ 2、标记的类型和语法 单标记双标记始标记尾标记语法格式&lt;标记&gt;….注意：标记可以包含标记的，标记可以成对嵌套的，但是不可以交叉嵌套3、属性语法什么是属性？属性语法&lt;标记名字 属性1 属性2 属性3 ….&gt;4、HTML文件命名规范5、编写HTML文件注意事项（1）、所有属性用尖括号括起来（2）、标记是成对出现的，最好同时输入始标记和尾标记（3）、代码不区分大小写（4）、任何空格回车在代码都无效（5）、标记中不能有空格（6）、标记中的属性必须用双引号引起来，但也可以不引]]></content>
+      <categories>
+        <category>HTML</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[第一篇博客]]></title>
     <url>%2F2018%2F01%2F01%2F%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%2F</url>
     <content type="text"><![CDATA[这是第一篇博客这将表示自己正式进入博客行列之前其实一直很]]></content>

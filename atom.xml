@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.fxsking.cn/"/>
-  <updated>2019-01-05T07:59:27.913Z</updated>
+  <updated>2019-01-05T08:59:42.482Z</updated>
   <id>http://www.fxsking.cn/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HTML基础篇1.md</title>
+    <link href="http://www.fxsking.cn/2019/01/05/leetcode-HTML%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A01/"/>
+    <id>http://www.fxsking.cn/2019/01/05/leetcode-HTML基础学习1/</id>
+    <published>2019-01-05T08:52:00.000Z</published>
+    <updated>2019-01-05T08:59:42.482Z</updated>
+    
+    <content type="html"><![CDATA[<p></p><h1><center>一、基本语法</center></h1><p></p><p></p><h2>1、标记是什么？</h2><p></p><p></p><h2>2、标记的类型和语法</h2><p></p><h3>单标记</h3><br><h3>双标记</h3><br><h3>始标记</h3><br><h3>尾标记</h3><br><h3>语法格式&lt;标记&gt;….</h3><br><h3>注意：标记可以包含标记的，标记可以成对嵌套的，但是不可以交叉嵌套</h3><br><h2>3、属性语法</h2><br><h3>什么是属性？</h3><br><h3>属性语法</h3><br><h4>&lt;标记名字 属性1 属性2 属性3 ….&gt;</h4><br><h2>4、HTML文件命名规范</h2><br><h2>5、编写HTML文件注意事项</h2><br><h3>（1）、所有属性用尖括号括起来</h3><br><h3>（2）、标记是成对出现的，最好同时输入始标记和尾标记</h3><br><h3>（3）、代码不区分大小写</h3><br><h3>（4）、任何空格回车在代码都无效</h3><br><h3>（5）、标记中不能有空格</h3><br><h3>（6）、标记中的属性必须用双引号引起来，但也可以不引</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;/p&gt;&lt;h1&gt;&lt;center&gt;一、基本语法&lt;/center&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h2&gt;1、标记是什么？&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h2&gt;2、标记的类型和语法&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;单标记&lt;/h3&gt;&lt;br&gt;&lt;h3&gt;双标记&lt;/h3
+      
+    
+    </summary>
+    
+      <category term="HTML" scheme="http://www.fxsking.cn/categories/HTML/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>第一篇博客</title>
