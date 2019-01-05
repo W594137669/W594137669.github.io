@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.fxsking.cn/"/>
-  <updated>2019-01-05T06:38:00.445Z</updated>
+  <updated>2019-01-05T07:59:27.913Z</updated>
   <id>http://www.fxsking.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://www.fxsking.cn/2018/01/01/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <id>http://www.fxsking.cn/2018/01/01/第一篇博客/</id>
     <published>2017-12-31T16:00:00.000Z</published>
-    <updated>2019-01-05T06:38:00.445Z</updated>
+    <updated>2019-01-05T07:59:27.913Z</updated>
     
     <content type="html"><![CDATA[<p>这是第一篇博客<br>这将表示自己正式进入博客行列<br>之前其实一直很</p>]]></content>
     
@@ -35,9 +35,7 @@
     
     </summary>
     
-      <category term="个人生活" scheme="http://www.fxsking.cn/categories/%E4%B8%AA%E4%BA%BA%E7%94%9F%E6%B4%BB/"/>
-    
-      <category term="test" scheme="http://www.fxsking.cn/categories/test/"/>
+      <category term="生活" scheme="http://www.fxsking.cn/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
   </entry>
