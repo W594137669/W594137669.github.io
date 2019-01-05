@@ -1,51 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[049 Group Anagrams]]></title>
-    <url>%2F2018%2F01%2F20%2F049-Group-Anagrams%2F</url>
-    <content type="text"><![CDATA[ProblemGiven a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000. Test12345Input: &quot;babad&quot;Output: &quot;bab&quot;Note: &quot;aba&quot; is also a valid answer. 123Input: &quot;cbbd&quot;Output: &quot;bb&quot; Python123456789101112131415161718192021222324#!python3class Solution: def twoSum(self, nums, target): """ :type nums: List[int] :type target: int :rtype: List[int] """ dic = &#123;&#125; for index, num in enumerate(nums): if num in dic: return [dic[num], index] dic[target - num] = indexif __name__ == "__main__": nums = [2, 7, 11, 15] target = 9 assert (Solution().twoSum(nums, target) == [0, 1]) nums = [3, 2, 4] target = 6 assert (Solution().twoSum(nums, target) == [1, 2]) $\alpha=\beta$]]></content>
+    <title><![CDATA[第一篇博客]]></title>
+    <url>%2F2018%2F01%2F01%2F%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%2F</url>
+    <content type="text"><![CDATA[这是第一篇博客这将表示自己正式进入博客行列之前其实一直很]]></content>
       <categories>
-        <category>language</category>
-        <category>python</category>
-        <category>cpp</category>
-        <category>field</category>
-        <category>algorithm</category>
-      </categories>
-      <tags>
-        <tag>leetcode</tag>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[005 Longest Palindromic Substring]]></title>
-    <url>%2F2018%2F01%2F19%2F005-Longest-Palindromic-Substring%2F</url>
-    <content type="text"><![CDATA[ProblemGiven a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000. Test12345Input: &quot;babad&quot;Output: &quot;bab&quot;Note: &quot;aba&quot; is also a valid answer. 123Input: &quot;cbbd&quot;Output: &quot;bb&quot; Python123456789101112131415161718192021222324#!python3class Solution: def twoSum(self, nums, target): """ :type nums: List[int] :type target: int :rtype: List[int] """ dic = &#123;&#125; for index, num in enumerate(nums): if num in dic: return [dic[num], index] dic[target - num] = indexif __name__ == "__main__": nums = [2, 7, 11, 15] target = 9 assert (Solution().twoSum(nums, target) == [0, 1]) nums = [3, 2, 4] target = 6 assert (Solution().twoSum(nums, target) == [1, 2])]]></content>
-      <categories>
-        <category>language</category>
-        <category>python</category>
-        <category>field</category>
-        <category>algorithm</category>
-      </categories>
-      <tags>
-        <tag>leetcode</tag>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[000 Two Sum]]></title>
-    <url>%2F2018%2F01%2F01%2F000-Two-Sum%2F</url>
-    <content type="text"><![CDATA[ProblemGiven an array of integers, return indices of the two numbers such that they add up to a specific target. You may assume that each input would have exactly one solution, and you may not use the same element twice. Example1234Given nums = [2, 7, 11, 15], target = 9,Because nums[0] + nums[1] = 2 + 7 = 9,return [0, 1]. Python123456789101112131415161718192021222324252627282930class Solution(object): def twoSum(self, nums, target): """ :type nums: List[int] :type target: int :rtype: List[int] """ lookup = &#123;&#125; for i, num in enumerate(nums): if target - num in lookup: return [lookup[target - num], i] lookup[num] = i def twoSum2(self, nums, target): """ :type nums: List[int] :type target: int :rtype: List[int] """ k = 0 for i in nums: j = target - i k += 1 tmp_nums = nums[k:] if j in tmp_nums: return [k - 1, tmp_nums.index(j) + k]if __name__ == '__main__': print Solution().twoSum((2, 7, 11, 15), 9) C++12345678910111213class Solution &#123;public: vector&lt;int&gt; twoSum(vector&lt;int&gt;&amp; nums, int target) &#123; unordered_map&lt;int, int&gt; lookup; for (int i = 0; i &lt; nums.size(); ++i) &#123; if (lookup.count(target - nums[i])) &#123; return &#123;lookup[target - nums[i]], i&#125;; &#125; lookup[nums[i]] = i; &#125; return &#123;&#125;; &#125;&#125;;]]></content>
-      <categories>
-        <category>language</category>
-        <category>python</category>
-        <category>cpp</category>
-        <category>field</category>
-        <category>algorithm</category>
         <category>test</category>
+        <category>个人生活</category>
       </categories>
-      <tags>
-        <tag>leetcode</tag>
-        <tag>test</tag>
-      </tags>
   </entry>
 </search>
