@@ -26,7 +26,16 @@
     }
 </style>
 <meta name="theme-color" content="#222">
-
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入密码') !== ''){
+                alert('密码错误');
+                history.back();
+            }
+        }
+    })();
+</script>
 
 
   
@@ -136,7 +145,7 @@
   var CONFIG = {
     root: '/',
     scheme: 'Gemini',
-    sidebar: {"position":"left","display":"always","offset":14,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"always","offset":14,"offset_float":12,"b2t":true,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: true,
@@ -426,8 +435,8 @@
                 
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/field/" itemprop="url" rel="index">
-                    <span itemprop="name">field</span>
+                  <a href="/categories/language/cpp/" itemprop="url" rel="index">
+                    <span itemprop="name">cpp</span>
                   </a>
                 </span>
 
@@ -437,8 +446,8 @@
                 
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/language/cpp/" itemprop="url" rel="index">
-                    <span itemprop="name">cpp</span>
+                  <a href="/categories/field/" itemprop="url" rel="index">
+                    <span itemprop="name">field</span>
                   </a>
                 </span>
 
@@ -893,8 +902,8 @@
                 
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/field/" itemprop="url" rel="index">
-                    <span itemprop="name">field</span>
+                  <a href="/categories/language/cpp/" itemprop="url" rel="index">
+                    <span itemprop="name">cpp</span>
                   </a>
                 </span>
 
@@ -904,8 +913,8 @@
                 
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/language/cpp/" itemprop="url" rel="index">
-                    <span itemprop="name">cpp</span>
+                  <a href="/categories/field/" itemprop="url" rel="index">
+                    <span itemprop="name">field</span>
                   </a>
                 </span>
 
@@ -1229,6 +1238,13 @@
       
 
       
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
 
     </div>
   </aside>
@@ -1276,11 +1292,6 @@
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
     
 
   </div>
